@@ -1,5 +1,0 @@
-1710569021755:exit
-1710569088533:echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list\necho "deb https://repo.scala-sbt.org/scalasbt/debian /" | sudo tee /etc/apt/sources.list.d/sbt_old.list\ncurl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84B2DF73499E82A75642AC823" | sudo apt-key add\nsudo apt-get update\nsudo apt-get install sbt
-1710569098498:test
-1710569119584:sbt new ku-plrg-classroom/scala-tutorial.g8
-1710569162176:test
