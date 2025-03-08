@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/scala-tutorial/src/main/scala/kuplrg/Template.scala:29:5: identifier expected but 'case' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    case Leaf(value: Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/scala-tutorial/src/main/scala/kuplrg/Template.scala:46:5: identifier expected but 'case' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    case True[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/scala-tutorial/src/main/scala/kuplrg/error.scala:5:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef error(): Nothing = error("")[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/scala-tutorial/src/main/scala/kuplrg/error.scala:7:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef error(msg: String): Nothing = throw PLError(msg)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

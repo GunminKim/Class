@@ -1,0 +1,127 @@
+[36mRun starting. Expected test count is: 0[0m
+[32mSpec:[0m
+[32menfa1.toDFA.mustEqual(enfa1.lang, TRIAL)[0m
+[32m- should be terminated normally (41 milliseconds)[0m
+[32menfa2.toDFA.mustEqual(enfa2.lang, TRIAL)[0m
+[32m- should be terminated normally (3 milliseconds)[0m
+[32menfa3.toDFA.mustEqual(enfa3.lang, TRIAL)[0m
+[32m- should be terminated normally (30 milliseconds)[0m
+[32menfa4.toDFA.mustEqual(enfa4.lang, TRIAL)[0m
+[32m- should be terminated normally (47 milliseconds)[0m
+[32menfa5.toDFA.mustEqual(enfa5.lang, TRIAL)[0m
+[32m- should be terminated normally (43 milliseconds)[0m
+[32menfa6.toDFA.mustEqual(enfa6.lang, TRIAL)[0m
+[32m- should be terminated normally (7 milliseconds)[0m
+[32menfa7.toDFA.mustEqual(enfa7.lang, TRIAL)[0m
+[32m- should be terminated normally (21 milliseconds)[0m
+[32menfa8.toDFA.mustEqual(enfa8.lang, TRIAL)[0m
+[32m- should be terminated normally (13 milliseconds)[0m
+[32menfa9.toDFA.mustEqual(enfa9.lang, TRIAL)[0m
+[32m- should be terminated normally (44 milliseconds)[0m
+[32menfa10.toDFA.mustEqual(enfa10.lang, TRIAL)[0m
+[32m- should be terminated normally (3 milliseconds)[0m
+[32menfa11.toDFA.mustEqual(enfa11.lang, TRIAL)[0m
+[32m- should be terminated normally (7 milliseconds)[0m
+[32menfa12.toDFA.mustEqual(enfa12.lang, TRIAL)[0m
+[32m- should be terminated normally (11 milliseconds)[0m
+[32menfa13.toDFA.mustEqual(enfa13.lang, TRIAL)[0m
+[32m- should be terminated normally (13 milliseconds)[0m
+[32menfa14.toDFA.mustEqual(enfa14.lang, TRIAL)[0m
+[32m- should be terminated normally (19 milliseconds)[0m
+[32menfa15.toDFA.mustEqual(enfa15.lang, TRIAL)[0m
+[32m- should be terminated normally (28 milliseconds)[0m
+[32menfa16.toDFA.mustEqual(enfa16.lang, TRIAL)[0m
+[32m- should be terminated normally (21 milliseconds)[0m
+[32menfa17.toDFA.mustEqual(enfa17.lang, TRIAL)[0m
+[32m- should be terminated normally (6 milliseconds)[0m
+[32menfa18.toDFA.mustEqual(enfa18.lang, TRIAL)[0m
+[32m- should be terminated normally (12 milliseconds)[0m
+[32menfa19.toDFA.mustEqual(enfa19.lang, TRIAL)[0m
+[32m- should be terminated normally (16 milliseconds)[0m
+[32menfa20.toDFA.mustEqual(enfa20.lang, TRIAL)[0m
+[32m- should be terminated normally (17 milliseconds)[0m
+[32mre1.toENFA.mustEqual(re1.lang, TRIAL)[0m
+[32m- should be terminated normally (23 milliseconds)[0m
+[32mre2.toENFA.mustEqual(re2.lang, TRIAL)[0m
+[32m- should be terminated normally (3 milliseconds)[0m
+[32mre3.toENFA.mustEqual(re3.lang, TRIAL)[0m
+[32m- should be terminated normally (5 milliseconds)[0m
+[32mre4.toENFA.mustEqual(re4.lang, TRIAL)[0m
+[32m- should be terminated normally (11 milliseconds)[0m
+[32mre5.toENFA.mustEqual(re5.lang, TRIAL)[0m
+[32m- should be terminated normally (7 milliseconds)[0m
+[32mre6.toENFA.mustEqual(re6.lang, TRIAL)[0m
+[32m- should be terminated normally (3 milliseconds)[0m
+[32mre7.toENFA.mustEqual(re7.lang, TRIAL)[0m
+[32m- should be terminated normally (12 milliseconds)[0m
+[32mre8.toENFA.mustEqual(re8.lang, TRIAL)[0m
+[32m- should be terminated normally (6 milliseconds)[0m
+[32mre9.toENFA.mustEqual(re9.lang, TRIAL)[0m
+[32m- should be terminated normally (21 milliseconds)[0m
+[32mre10.toENFA.mustEqual(re10.lang, TRIAL)[0m
+[32m- should be terminated normally (4 milliseconds)[0m
+[32mre11.toENFA.mustEqual(re11.lang, TRIAL)[0m
+[32m- should be terminated normally (4 milliseconds)[0m
+[32mre12.toENFA.mustEqual(re12.lang, TRIAL)[0m
+[32m- should be terminated normally (5 milliseconds)[0m
+[32mre13.toENFA.mustEqual(re13.lang, TRIAL)[0m
+[32m- should be terminated normally (13 milliseconds)[0m
+[32mre14.toENFA.mustEqual(re14.lang, TRIAL)[0m
+[32m- should be terminated normally (10 milliseconds)[0m
+[32mre15.toENFA.mustEqual(re15.lang, TRIAL)[0m
+[32m- should be terminated normally (32 milliseconds)[0m
+[32mre16.toENFA.mustEqual(re16.lang, TRIAL)[0m
+[32m- should be terminated normally (20 milliseconds)[0m
+[32mre17.toENFA.mustEqual(re17.lang, TRIAL)[0m
+[32m- should be terminated normally (3 milliseconds)[0m
+[32mre18.toENFA.mustEqual(re18.lang, TRIAL)[0m
+[32m- should be terminated normally (12 milliseconds)[0m
+[32mre19.toENFA.mustEqual(re19.lang, TRIAL)[0m
+[32m- should be terminated normally (19 milliseconds)[0m
+[32mre20.toENFA.mustEqual(re20.lang, TRIAL)[0m
+[32m- should be terminated normally (24 milliseconds)[0m
+[32mdfa1.toRE.mustEqual(dfa1.lang, TRIAL)[0m
+[32m- should be terminated normally (8 milliseconds)[0m
+[32mdfa2.toRE.mustEqual(dfa2.lang, TRIAL)[0m
+[32m- should be terminated normally (7 milliseconds)[0m
+[32mdfa3.toRE.mustEqual(dfa3.lang, TRIAL)[0m
+[32m- should be terminated normally (9 milliseconds)[0m
+[32mdfa4.toRE.mustEqual(dfa4.lang, TRIAL)[0m
+[32m- should be terminated normally (7 milliseconds)[0m
+[32mdfa5.toRE.mustEqual(dfa5.lang, TRIAL)[0m
+[32m- should be terminated normally (11 milliseconds)[0m
+[32mdfa6.toRE.mustEqual(dfa6.lang, TRIAL)[0m
+[32m- should be terminated normally (5 milliseconds)[0m
+[32mdfa7.toRE.mustEqual(dfa7.lang, TRIAL)[0m
+[32m- should be terminated normally (18 milliseconds)[0m
+[32mdfa8.toRE.mustEqual(dfa8.lang, TRIAL)[0m
+[32m- should be terminated normally (5 milliseconds)[0m
+[32mdfa9.toRE.mustEqual(dfa9.lang, TRIAL)[0m
+[32m- should be terminated normally (4 milliseconds)[0m
+[32mdfa10.toRE.mustEqual(dfa10.lang, TRIAL)[0m
+[32m- should be terminated normally (10 milliseconds)[0m
+[32mdfa11.toRE.mustEqual(dfa11.lang, TRIAL)[0m
+[32m- should be terminated normally (6 milliseconds)[0m
+[32mdfa12.toRE.mustEqual(dfa12.lang, TRIAL)[0m
+[32m- should be terminated normally (6 milliseconds)[0m
+[32mdfa13.toRE.mustEqual(dfa13.lang, TRIAL)[0m
+[32m- should be terminated normally (6 milliseconds)[0m
+[32mdfa14.toRE.mustEqual(dfa14.lang, TRIAL)[0m
+[32m- should be terminated normally (18 milliseconds)[0m
+[32mdfa15.toRE.mustEqual(dfa15.lang, TRIAL)[0m
+[32m- should be terminated normally (34 milliseconds)[0m
+[32mdfa16.toRE.mustEqual(dfa16.lang, TRIAL)[0m
+[32m- should be terminated normally (36 milliseconds)[0m
+[32mdfa17.toRE.mustEqual(dfa17.lang, TRIAL)[0m
+[32m- should be terminated normally (36 milliseconds)[0m
+[32mdfa18.toRE.mustEqual(dfa18.lang, TRIAL)[0m
+[32m- should be terminated normally (37 milliseconds)[0m
+[32mdfa19.toRE.mustEqual(dfa19.lang, TRIAL)[0m
+[32m- should be terminated normally (33 milliseconds)[0m
+[32mdfa20.toRE.mustEqual(dfa20.lang, TRIAL)[0m
+[32m- should be terminated normally (65 milliseconds)[0m
+[36mRun completed in 1 second, 335 milliseconds.[0m
+[36mTotal number of tests run: 60[0m
+[36mSuites: completed 1, aborted 0[0m
+[36mTests: succeeded 60, failed 0, canceled 0, ignored 0, pending 0[0m
+[32mAll tests passed.[0m

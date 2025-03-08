@@ -1,0 +1,112 @@
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/DFA.scala:20:13: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0m) extends FA:[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/DFA.scala:31:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    case x <| w => extTrans(trans(q, x), w)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/DFA.scala:39:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def accept(w: Word): Boolean =[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/ENFA.scala:20:13: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0m) extends FA:[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/ENFA.scala:31:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      case p :: targets => aux([0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/ENFA.scala:35:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    aux(List(q), Set())[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/ENFA.scala:43:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def eclo(qs: Set[State]): Set[State] = qs.flatMap(eclo)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/ENFA.scala:52:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def extTrans(qs: Set[State], w: Word): Set[State] = w match[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/ENFA.scala:54:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    case x <| w => extTrans(eclo(qs).flatMap(q => trans(q, Some(x))), w)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/ENFA.scala:62:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def accept(w: Word): Boolean =[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:27:5: '{' expected but 'case' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    case dfa: DFA => checkValid([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:32:5: illegal start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m    case nfa: NFA => checkValid([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:37:5: illegal start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m    case enfa: ENFA => checkValid([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:50:5: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m    val (expectedSymbols, expectedAccept) = expected[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:56:7: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m      val curSize = (1 << k) min n[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:64:11: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m          val neg = if (answer) "" else " not"[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:98:7: '{' expected but 'case' found.[0m
+[0m[[0m[31merror[0m] [0m[0m      case Some(b) => if (invalid(b)) error(s"Invalid transition: ($q, $a) -> $b")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:99:7: illegal start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m      case None => if (!isWithDefault(trans)) error(s"Missing transition: ($q, $a)")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:106:5: '{' expected but 'case' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    case _: Map.WithDefault[_, _] => true[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:107:5: illegal start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m    case _                        => false[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:110:11: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  private given Conversion[State, String] = _.toString[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:111:11: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  private given Conversion[Symbol, String] = _.toString[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:112:11: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  private given encodeMap[A, B, V](using[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:127:11: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  private given encodeOptMap[A, B, V](using[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:144:11: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  private given Encoder[DFA] = deriveEncoder[DFA][0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:145:11: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  private given Encoder[NFA] = deriveEncoder[NFA][0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:146:11: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  private given Encoder[ENFA] = deriveEncoder[ENFA][0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/FA.scala:147:11: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  private given Encoder[FA] = Encoder.instance {[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/NFA.scala:20:13: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0m) extends FA:[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/NFA.scala:31:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    case x <| w => extTrans(qs.flatMap(q => trans(q, x)), w)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/NFA.scala:40:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def accept(w: Word): Boolean =[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/basics.scala:4:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mtype State = Int[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/basics.scala:7:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mtype Symbol = Char[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/basics.scala:10:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mtype Word = String[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/basics.scala:13:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mtype Lang = (Set[Symbol], Word => Boolean)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/error.scala:5:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef error(): Nothing = error("")[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gmk/cose215/fa-examples/src/main/scala/kuplrg/error.scala:7:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef error(msg: String): Nothing = throw PLError(msg)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m37 errors found[0m

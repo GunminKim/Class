@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="gunmin" name="kuplrg.Spec" tests="60" errors="0" failures="0" skipped="0" time="1.0" timestamp="2024-04-17T09:56:25">
+          <properties>
+      <property name="java.specification.version" value="21"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://java.oracle.com/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-21-oracle-x64/lib"/><property name="sun.java.command" value="/home/gmk/.cache/sbt/boot/sbt-launch/1.9.9/sbt-launch-1.9.9.jar test"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2024-01-16"/><property name="java.home" value="/usr/lib/jvm/jdk-21-oracle-x64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="21.0.2+13-LTS-58"/><property name="user.name" value="gmk"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/gmk/.cache/JNA/temp/jna9371944097154593440.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="21.0.2"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="stderr.encoding" value="UTF-8"/><property name="java.vendor" value="Oracle Corporation"/><property name="scala.ext.dirs" value="/home/gmk/.sbt/1.0/java9-rt-ext-oracle_corporation_21_0_2"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/home/gmk/.cache/sbt/boot/sbt-launch/1.9.9/sbt-launch-1.9.9.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Asia/Seoul"/><property name="java.vm.specification.version" value="21"/><property name="os.name" value="Linux"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/gmk"/><property name="user.language" value="en"/><property name="sbt.script" value="/usr/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/run/user/1000/.sbt10d1fe49/ipcsocket"/><property name="swoval.tmpdir" value="/run/user/1000/.sbt10d1fe49/swoval"/><property name="jline.esc.timeout" value="0"/><property name="stdout.encoding" value="UTF-8"/><property name="path.separator" value=":"/><property name="os.version" value="5.15.146.1-microsoft-standard-WSL2"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib32:/usr/lib/wsl/lib"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="user.dir" value="/home/gmk/cose215/equiv-re-fa"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="21.0.2+13-LTS-58"/><property name="java.class.version" value="65.0"/>
+    </properties>
+          <testcase classname="kuplrg.Spec" name="enfa1.toDFA.mustEqual(enfa1.lang, TRIAL) should be terminated normally" time="0.041">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa2.toDFA.mustEqual(enfa2.lang, TRIAL) should be terminated normally" time="0.003">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa3.toDFA.mustEqual(enfa3.lang, TRIAL) should be terminated normally" time="0.03">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa4.toDFA.mustEqual(enfa4.lang, TRIAL) should be terminated normally" time="0.047">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa5.toDFA.mustEqual(enfa5.lang, TRIAL) should be terminated normally" time="0.043">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa6.toDFA.mustEqual(enfa6.lang, TRIAL) should be terminated normally" time="0.007">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa7.toDFA.mustEqual(enfa7.lang, TRIAL) should be terminated normally" time="0.021">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa8.toDFA.mustEqual(enfa8.lang, TRIAL) should be terminated normally" time="0.013">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa9.toDFA.mustEqual(enfa9.lang, TRIAL) should be terminated normally" time="0.044">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa10.toDFA.mustEqual(enfa10.lang, TRIAL) should be terminated normally" time="0.003">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa11.toDFA.mustEqual(enfa11.lang, TRIAL) should be terminated normally" time="0.007">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa12.toDFA.mustEqual(enfa12.lang, TRIAL) should be terminated normally" time="0.011">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa13.toDFA.mustEqual(enfa13.lang, TRIAL) should be terminated normally" time="0.013">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa14.toDFA.mustEqual(enfa14.lang, TRIAL) should be terminated normally" time="0.019">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa15.toDFA.mustEqual(enfa15.lang, TRIAL) should be terminated normally" time="0.028">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa16.toDFA.mustEqual(enfa16.lang, TRIAL) should be terminated normally" time="0.021">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa17.toDFA.mustEqual(enfa17.lang, TRIAL) should be terminated normally" time="0.006">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa18.toDFA.mustEqual(enfa18.lang, TRIAL) should be terminated normally" time="0.012">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa19.toDFA.mustEqual(enfa19.lang, TRIAL) should be terminated normally" time="0.016">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa20.toDFA.mustEqual(enfa20.lang, TRIAL) should be terminated normally" time="0.017">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re1.toENFA.mustEqual(re1.lang, TRIAL) should be terminated normally" time="0.023">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re2.toENFA.mustEqual(re2.lang, TRIAL) should be terminated normally" time="0.003">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re3.toENFA.mustEqual(re3.lang, TRIAL) should be terminated normally" time="0.005">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re4.toENFA.mustEqual(re4.lang, TRIAL) should be terminated normally" time="0.011">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re5.toENFA.mustEqual(re5.lang, TRIAL) should be terminated normally" time="0.007">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re6.toENFA.mustEqual(re6.lang, TRIAL) should be terminated normally" time="0.003">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re7.toENFA.mustEqual(re7.lang, TRIAL) should be terminated normally" time="0.012">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re8.toENFA.mustEqual(re8.lang, TRIAL) should be terminated normally" time="0.006">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re9.toENFA.mustEqual(re9.lang, TRIAL) should be terminated normally" time="0.021">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re10.toENFA.mustEqual(re10.lang, TRIAL) should be terminated normally" time="0.004">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re11.toENFA.mustEqual(re11.lang, TRIAL) should be terminated normally" time="0.004">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re12.toENFA.mustEqual(re12.lang, TRIAL) should be terminated normally" time="0.005">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re13.toENFA.mustEqual(re13.lang, TRIAL) should be terminated normally" time="0.013">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re14.toENFA.mustEqual(re14.lang, TRIAL) should be terminated normally" time="0.01">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re15.toENFA.mustEqual(re15.lang, TRIAL) should be terminated normally" time="0.032">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re16.toENFA.mustEqual(re16.lang, TRIAL) should be terminated normally" time="0.02">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re17.toENFA.mustEqual(re17.lang, TRIAL) should be terminated normally" time="0.003">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re18.toENFA.mustEqual(re18.lang, TRIAL) should be terminated normally" time="0.012">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re19.toENFA.mustEqual(re19.lang, TRIAL) should be terminated normally" time="0.019">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="re20.toENFA.mustEqual(re20.lang, TRIAL) should be terminated normally" time="0.024">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa1.toRE.mustEqual(dfa1.lang, TRIAL) should be terminated normally" time="0.008">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa2.toRE.mustEqual(dfa2.lang, TRIAL) should be terminated normally" time="0.007">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa3.toRE.mustEqual(dfa3.lang, TRIAL) should be terminated normally" time="0.009">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa4.toRE.mustEqual(dfa4.lang, TRIAL) should be terminated normally" time="0.007">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa5.toRE.mustEqual(dfa5.lang, TRIAL) should be terminated normally" time="0.011">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa6.toRE.mustEqual(dfa6.lang, TRIAL) should be terminated normally" time="0.005">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa7.toRE.mustEqual(dfa7.lang, TRIAL) should be terminated normally" time="0.018">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa8.toRE.mustEqual(dfa8.lang, TRIAL) should be terminated normally" time="0.005">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa9.toRE.mustEqual(dfa9.lang, TRIAL) should be terminated normally" time="0.004">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa10.toRE.mustEqual(dfa10.lang, TRIAL) should be terminated normally" time="0.01">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa11.toRE.mustEqual(dfa11.lang, TRIAL) should be terminated normally" time="0.006">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa12.toRE.mustEqual(dfa12.lang, TRIAL) should be terminated normally" time="0.006">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa13.toRE.mustEqual(dfa13.lang, TRIAL) should be terminated normally" time="0.006">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa14.toRE.mustEqual(dfa14.lang, TRIAL) should be terminated normally" time="0.018">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa15.toRE.mustEqual(dfa15.lang, TRIAL) should be terminated normally" time="0.034">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa16.toRE.mustEqual(dfa16.lang, TRIAL) should be terminated normally" time="0.036">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa17.toRE.mustEqual(dfa17.lang, TRIAL) should be terminated normally" time="0.036">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa18.toRE.mustEqual(dfa18.lang, TRIAL) should be terminated normally" time="0.037">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa19.toRE.mustEqual(dfa19.lang, TRIAL) should be terminated normally" time="0.033">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa20.toRE.mustEqual(dfa20.lang, TRIAL) should be terminated normally" time="0.065">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

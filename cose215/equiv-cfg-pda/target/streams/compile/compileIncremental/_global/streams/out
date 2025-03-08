@@ -1,0 +1,57 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 55 products, 6 sources, 3 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/kuplrg/Template.scala, ${BASE}/src/main/scala/kuplrg/error.scala, ${BASE}/src/main/scala/kuplrg/PDA.scala, ${BASE}/src/main/scala/kuplrg/basics.scala, ${BASE}/src/main/scala/kuplrg/Implementation.scala, ${BASE}/src/main/scala/kuplrg/CFG.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/kuplrg/Implementation.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/kuplrg/Implementation.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(kuplrg.playground, kuplrg.Implementation)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(kuplrg.playground, kuplrg.Implementation)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/kuplrg/Implementation.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: kuplrg.playground, kuplrg.Implementation[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gmk/cose215/equiv-cfg-pda/target/scala-3.3.3/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /home/gmk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.3.3/scala3-sbt-bridge-3.3.3.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 7bb9843e for Scala Compiler version 3.3.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-explain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-explain-types[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:implicitConversions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:excluded:src/main/scala/kuplrg/basics.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:excluded:src/main/scala/kuplrg/error.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:excluded:src/test/scala/kuplrg[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:traverser:org.wartremover.warts.AsInstanceOf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:traverser:org.wartremover.warts.IsInstanceOf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:traverser:org.wartremover.warts.Null[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:traverser:org.wartremover.warts.Return[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:traverser:org.wartremover.warts.Throw[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:traverser:org.wartremover.warts.Var[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:traverser:org.wartremover.warts.While[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:traverser:org.wartremover.warts.MutableDataStructures[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:traverser:kuplrg.warts.TryCatch[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:cp:file:///home/gmk/cose215/equiv-cfg-pda/../lib/warts.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xplugin:target/scala-3.3.3/compiler_plugins/wartremover_3.3.3-3.1.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/gmk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.3/scala3-library_3-3.3.3.jar:/home/gmk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/gmk/cose215/equiv-cfg-pda/target/scala-3.3.3/classes:/home/gmk/cose215/equiv-cfg-pda/lib/warts.jar:/home/gmk/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_3/0.14.3/circe-core_3-0.14.3.jar:/home/gmk/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_3/0.14.3/circe-generic_3-0.14.3.jar:/home/gmk/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_3/0.14.3/circe-parser_3-0.14.3.jar:/home/gmk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/2.2.0/scala-parser-combinators_2.13-2.2.0.jar:/home/gmk/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_3/0.14.3/circe-numbers_3-0.14.3.jar:/home/gmk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_3/2.8.0/cats-core_3-2.8.0.jar:/home/gmk/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_3/0.14.3/circe-jawn_3-0.14.3.jar:/home/gmk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_3/2.8.0/cats-kernel_3-2.8.0.jar:/home/gmk/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_3/1.4.0/jawn-parser_3-1.4.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 4.757225493 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m

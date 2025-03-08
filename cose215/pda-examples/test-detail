@@ -1,0 +1,109 @@
+[36mRun starting. Expected test count is: 0[0m
+[32mSpec:[0m
+[32meven_final_check()[0m
+[32m- should be terminated normally (692 milliseconds)[0m
+[32mmore_as_check()[0m
+[32m- should be terminated normally (1 second)[0m
+[32mabc_ij_ik_check()[0m
+[32m- should be terminated normally (444 milliseconds)[0m
+[32ma2n1_b3n1_check()[0m
+[31m- should be terminated normally *** FAILED *** (25 milliseconds)[0m
+[31m  [ERROR] the word 'aaaaaaaaabbbbbbbbbbbbb' should be in the language. (SpecBase.scala:146)[0m
+[32mabc_j_i2k_check()[0m
+[32m- should be terminated normally (927 milliseconds)[0m
+[32mord_brace_check()[0m
+[32m- should be terminated normally (689 milliseconds)[0m
+[32mae_even_check()[0m
+[32m- should be terminated normally (221 milliseconds)[0m
+[32meq_pair_check()[0m
+[32m- should be terminated normally (3 seconds, 827 milliseconds)[0m
+[36mRun completed in 8 seconds, 46 milliseconds.[0m
+[36mTotal number of tests run: 8[0m
+[36mSuites: completed 1, aborted 0[0m
+[36mTests: succeeded 7, failed 1, canceled 0, ignored 0, pending 0[0m
+[31m*** 1 TEST FAILED ***[0m
+[31mSpec:[0m
+[31ma2n1_b3n1_check() [0m
+[31m- should be terminated normally *** FAILED *** (25 milliseconds)[0m
+[31m  [ERROR] the word 'aaaaaaaaabbbbbbbbbbbbb' should be in the language. (SpecBase.scala:146)[0m
+[31m  org.scalatest.exceptions.TestFailedException:[0m
+[31m  at org.scalatest.Assertions.newAssertionFailedException(Assertions.scala:476)[0m
+[31m  at org.scalatest.Assertions.newAssertionFailedException$(Assertions.scala:421)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpec.newAssertionFailedException(AnyFlatSpec.scala:1685)[0m
+[31m  at org.scalatest.Assertions.failImpl(Assertions.scala:1060)[0m
+[31m  at org.scalatest.Assertions.org$scalatest$Assertions$$inline$failImpl(Assertions.scala:1056)[0m
+[31m  at org.scalatest.Assertions.org$scalatest$Assertions$$inline$failImpl$(Assertions.scala:421)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpec.org$scalatest$Assertions$$inline$failImpl(AnyFlatSpec.scala:1685)[0m
+[31m  at kuplrg.SpecBase.failed(SpecBase.scala:146)[0m
+[31m  at kuplrg.SpecBase.failed(SpecBase.scala:141)[0m
+[31m  at kuplrg.SpecBase.testFun$proxy1$1(SpecBase.scala:129)[0m
+[31m  at kuplrg.SpecBase.newTest$$anonfun$1(SpecBase.scala:131)[0m
+[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpecLike$$anon$5.apply(AnyFlatSpecLike.scala:1717)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:138)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpec.withFixture(AnyFlatSpec.scala:1685)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpecLike.invokeWithFixture$1(AnyFlatSpecLike.scala:1723)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpecLike.runTest$$anonfun$1(AnyFlatSpecLike.scala:1727)[0m
+[31m  at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpecLike.runTest(AnyFlatSpecLike.scala:1727)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpecLike.runTest$(AnyFlatSpecLike.scala:51)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpec.runTest(AnyFlatSpec.scala:1685)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpecLike.runTests$$anonfun$1(AnyFlatSpecLike.scala:1785)[0m
+[31m  at org.scalatest.SuperEngine.traverseSubNodes$1$$anonfun$1(Engine.scala:413)[0m
+[31m  at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)[0m
+[31m  at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)[0m
+[31m  at scala.collection.immutable.List.foreach(List.scala:333)[0m
+[31m  at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:429)[0m
+[31m  at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:390)[0m
+[31m  at org.scalatest.SuperEngine.traverseSubNodes$1$$anonfun$1(Engine.scala:427)[0m
+[31m  at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)[0m
+[31m  at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)[0m
+[31m  at scala.collection.immutable.List.foreach(List.scala:333)[0m
+[31m  at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:429)[0m
+[31m  at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:396)[0m
+[31m  at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:475)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpecLike.runTests(AnyFlatSpecLike.scala:1785)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpecLike.runTests$(AnyFlatSpecLike.scala:51)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpec.runTests(AnyFlatSpec.scala:1685)[0m
+[31m  at org.scalatest.Suite.run(Suite.scala:1114)[0m
+[31m  at org.scalatest.Suite.run$(Suite.scala:564)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpec.org$scalatest$flatspec$AnyFlatSpecLike$$super$run(AnyFlatSpec.scala:1685)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpecLike.run$$anonfun$1(AnyFlatSpecLike.scala:1830)[0m
+[31m  at org.scalatest.SuperEngine.runImpl(Engine.scala:535)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpecLike.run(AnyFlatSpecLike.scala:1830)[0m
+[31m  at org.scalatest.flatspec.AnyFlatSpecLike.run$(AnyFlatSpecLike.scala:51)[0m
+[31m  at kuplrg.Spec.org$scalatest$BeforeAndAfterAll$$super$run(Spec.scala:50)[0m
+[31m  at org.scalatest.BeforeAndAfterAll.liftedTree1$1(BeforeAndAfterAll.scala:213)[0m
+[31m  at org.scalatest.BeforeAndAfterAll.run(BeforeAndAfterAll.scala:217)[0m
+[31m  at org.scalatest.BeforeAndAfterAll.run$(BeforeAndAfterAll.scala:135)[0m
+[31m  at kuplrg.Spec.run(Spec.scala:50)[0m
+[31m  at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:321)[0m
+[31m  at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:517)[0m
+[31m  at sbt.TestRunner.runTest$1(TestFramework.scala:153)[0m
+[31m  at sbt.TestRunner.run(TestFramework.scala:168)[0m
+[31m  at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:336)[0m
+[31m  at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:296)[0m
+[31m  at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:336)[0m
+[31m  at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:336)[0m
+[31m  at sbt.TestFunction.apply(TestFramework.scala:348)[0m
+[31m  at sbt.Tests$.$anonfun$toTask$1(Tests.scala:436)[0m
+[31m  at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:47)[0m
+[31m  at sbt.std.Transform$$anon$4.work(Transform.scala:69)[0m
+[31m  at sbt.Execute.$anonfun$submit$2(Execute.scala:283)[0m
+[31m  at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)[0m
+[31m  at sbt.Execute.work(Execute.scala:292)[0m
+[31m  at sbt.Execute.$anonfun$submit$1(Execute.scala:283)[0m
+[31m  at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[31m  at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)[0m
+[31m  at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)[0m
+[31m  at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)[0m
+[31m  at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)[0m
+[31m  at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)[0m
+[31m  at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)[0m
+[31m  at java.base/java.lang.Thread.run(Thread.java:1583)[0m

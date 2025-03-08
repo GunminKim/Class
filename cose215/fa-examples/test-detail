@@ -1,0 +1,47 @@
+[36mRun starting. Expected test count is: 0[0m
+[32mSpec:[0m
+[32mdfa_a_b_star.mustValid[0m
+[32m- should be terminated normally (32 milliseconds)[0m
+[32mdfa_a_b_star.mustEqual(lang_a_b_star, TRIAL)[0m
+[32m- should be terminated normally (160 milliseconds)[0m
+[32mdfa_div_3_1.mustValid[0m
+[32m- should be terminated normally (2 milliseconds)[0m
+[32mdfa_div_3_1.mustEqual(lang_div_3_1, TRIAL)[0m
+[32m- should be terminated normally (30 milliseconds)[0m
+[32mdfa_subseq_101.mustValid[0m
+[32m- should be terminated normally (4 milliseconds)[0m
+[32mdfa_subseq_101.mustEqual(lang_subseq_101, TRIAL)[0m
+[32m- should be terminated normally (32 milliseconds)[0m
+[32mdfa_odd_0_1.mustValid[0m
+[32m- should be terminated normally (1 millisecond)[0m
+[32mdfa_odd_0_1.mustEqual(lang_odd_0_1, TRIAL)[0m
+[32m- should be terminated normally (28 milliseconds)[0m
+[32mnfa_two_0.mustValid[0m
+[32m- should be terminated normally (6 milliseconds)[0m
+[32mnfa_two_0.mustEqual(lang_two_0, TRIAL)[0m
+[32m- should be terminated normally (106 milliseconds)[0m
+[32mnfa_substr_011.mustValid[0m
+[32m- should be terminated normally (2 milliseconds)[0m
+[32mnfa_substr_011.mustEqual(lang_substr_011, TRIAL)[0m
+[32m- should be terminated normally (112 milliseconds)[0m
+[32mnfa_has_00_or_11.mustValid[0m
+[32m- should be terminated normally (4 milliseconds)[0m
+[32mnfa_has_00_or_11.mustEqual(lang_has_00_or_11, TRIAL)[0m
+[32m- should be terminated normally (86 milliseconds)[0m
+[32menfa_ab_plus.mustValid[0m
+[32m- should be terminated normally (5 milliseconds)[0m
+[32menfa_ab_plus.mustEqual(lang_ab_plus, TRIAL)[0m
+[32m- should be terminated normally (153 milliseconds)[0m
+[32menfa_same_digits.mustValid[0m
+[32m- should be terminated normally (2 milliseconds)[0m
+[32menfa_same_digits.mustEqual(lang_same_digits, TRIAL)[0m
+[32m- should be terminated normally (85 milliseconds)[0m
+[32menfa_complex.mustValid[0m
+[32m- should be terminated normally (3 milliseconds)[0m
+[32menfa_complex.mustEqual(lang_complex, TRIAL)[0m
+[32m- should be terminated normally (57 milliseconds)[0m
+[36mRun completed in 1 second, 160 milliseconds.[0m
+[36mTotal number of tests run: 20[0m
+[36mSuites: completed 1, aborted 0[0m
+[36mTests: succeeded 20, failed 0, canceled 0, ignored 0, pending 0[0m
+[32mAll tests passed.[0m

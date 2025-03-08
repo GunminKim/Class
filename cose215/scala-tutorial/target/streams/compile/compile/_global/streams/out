@@ -1,0 +1,41 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/scala-tutorial/src/main/scala/kuplrg/Implementation.scala:41:15 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m41 |[0m      [33mval[0m [36mld[0m = dfs(l, d + [31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m               ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m               Not found: dfs[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The identifier for `dfs` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m That can happen, for example, if `dfs` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `dfs` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `dfs` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/scala-tutorial/src/main/scala/kuplrg/Implementation.scala:42:15 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m42 |[0m      [33mval[0m [36mrd[0m = dfs(r, d + [31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m               ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m               Not found: dfs[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The identifier for `dfs` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m That can happen, for example, if `dfs` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `dfs` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `dfs` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E172] Type Error: /home/gmk/cose215/scala-tutorial/src/main/scala/kuplrg/Implementation.scala:47:68 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m47 |[0m          [33mif[0m (n == value) Some((d :: depth).max) [33melse[0m Some(depth.max)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                    ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mAmbiguous given instances: both [33mobject[0m [35mString[0m in [33mobject[0m [35mOrdering[0m and [33mobject[0m [35mByte[0m in [33mobject[0m [35mOrdering[0m match type Ordering[B] of parameter ord of [33mmethod[0m [35mmax[0m in [33mtrait[0m [35mIterableOnceOps[0m[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

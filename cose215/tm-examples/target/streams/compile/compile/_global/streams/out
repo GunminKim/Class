@@ -1,0 +1,19 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/tm-examples/src/main/scala/kuplrg/Implementation.scala:17:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m17 |[0m    tm_eq_abcdumpPath([31m""[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: tm_eq_abcdumpPath[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The identifier for `tm_eq_abcdumpPath` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m That can happen, for example, if `tm_eq_abcdumpPath` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `tm_eq_abcdumpPath` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `tm_eq_abcdumpPath` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

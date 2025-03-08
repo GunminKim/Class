@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="gunmin" name="kuplrg.Spec" tests="20" errors="0" failures="0" skipped="0" time="0.91" timestamp="2024-04-01T18:01:59">
+          <properties>
+      <property name="java.specification.version" value="21"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://java.oracle.com/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-21-oracle-x64/lib"/><property name="sun.java.command" value="/home/gmk/.cache/sbt/boot/sbt-launch/1.9.9/sbt-launch-1.9.9.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2024-01-16"/><property name="java.home" value="/usr/lib/jvm/jdk-21-oracle-x64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="21.0.2+13-LTS-58"/><property name="user.name" value="gmk"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/gmk/.cache/JNA/temp/jna16158940465323873281.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="21.0.2"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="stderr.encoding" value="UTF-8"/><property name="java.vendor" value="Oracle Corporation"/><property name="scala.ext.dirs" value="/home/gmk/.sbt/1.0/java9-rt-ext-oracle_corporation_21_0_2"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/home/gmk/.cache/sbt/boot/sbt-launch/1.9.9/sbt-launch-1.9.9.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Asia/Seoul"/><property name="java.vm.specification.version" value="21"/><property name="os.name" value="Linux"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/gmk"/><property name="user.language" value="en"/><property name="sbt.script" value="/usr/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/run/user/1000/.sbt10d1fe49/ipcsocket"/><property name="swoval.tmpdir" value="/run/user/1000/.sbt10d1fe49/swoval"/><property name="jline.esc.timeout" value="0"/><property name="stdout.encoding" value="UTF-8"/><property name="path.separator" value=":"/><property name="os.version" value="5.15.146.1-microsoft-standard-WSL2"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib32:/usr/lib/wsl/lib"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="user.dir" value="/home/gmk/cose215/fa-examples"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="21.0.2+13-LTS-58"/><property name="java.class.version" value="65.0"/>
+    </properties>
+          <testcase classname="kuplrg.Spec" name="dfa_a_b_star.mustValid should be terminated normally" time="0.032">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa_a_b_star.mustEqual(lang_a_b_star, TRIAL) should be terminated normally" time="0.16">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa_div_3_1.mustValid should be terminated normally" time="0.002">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa_div_3_1.mustEqual(lang_div_3_1, TRIAL) should be terminated normally" time="0.03">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa_subseq_101.mustValid should be terminated normally" time="0.004">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa_subseq_101.mustEqual(lang_subseq_101, TRIAL) should be terminated normally" time="0.032">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa_odd_0_1.mustValid should be terminated normally" time="0.001">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="dfa_odd_0_1.mustEqual(lang_odd_0_1, TRIAL) should be terminated normally" time="0.028">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="nfa_two_0.mustValid should be terminated normally" time="0.006">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="nfa_two_0.mustEqual(lang_two_0, TRIAL) should be terminated normally" time="0.106">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="nfa_substr_011.mustValid should be terminated normally" time="0.002">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="nfa_substr_011.mustEqual(lang_substr_011, TRIAL) should be terminated normally" time="0.112">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="nfa_has_00_or_11.mustValid should be terminated normally" time="0.004">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="nfa_has_00_or_11.mustEqual(lang_has_00_or_11, TRIAL) should be terminated normally" time="0.086">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa_ab_plus.mustValid should be terminated normally" time="0.005">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa_ab_plus.mustEqual(lang_ab_plus, TRIAL) should be terminated normally" time="0.153">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa_same_digits.mustValid should be terminated normally" time="0.002">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa_same_digits.mustEqual(lang_same_digits, TRIAL) should be terminated normally" time="0.085">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa_complex.mustValid should be terminated normally" time="0.003">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="enfa_complex.mustEqual(lang_complex, TRIAL) should be terminated normally" time="0.057">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

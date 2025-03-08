@@ -1,0 +1,57 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/gmk/cose215/pda-examples/target/scala-3.3.3/test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Spec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpecBase$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpecBase.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Spec.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpecBase$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpecBase.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Spec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpecBase$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpecBase.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Spec.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpecBase$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpecBase.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Mul.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Seq$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpecBase$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Spec$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Num$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Num.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Add.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$EmptyPar$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Brace$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$AE.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpecBase.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Add$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Par.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Mul$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Spec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Brace.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Seq.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Spec$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Mul.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Seq$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpecBase$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Spec$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Num$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Num.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Add.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$EmptyPar$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Brace$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$AE.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpecBase.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Add$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Par.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Mul$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Spec.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Brace.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generator$Seq.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Spec$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/gmk/cose215/pda-examples/target/scala-3.3.3/test-classes.bak[0m

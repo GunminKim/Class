@@ -1,0 +1,235 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/pda-examples/src/test/scala/kuplrg/Spec.scala:109:57 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m109 |[0m      converted_lang.mustEqualWithGenerator(lang, [31m1_000[0m, Generator.abc_ij_ik_accept([31m10[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                         ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                  Not found: Generator[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/pda-examples/src/test/scala/kuplrg/Spec.scala:110:57 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m110 |[0m      converted_lang.mustEqualWithGenerator(lang, [31m1_000[0m, Generator.abc_ij_ik_random([31m10[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                         ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                  Not found: Generator[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/pda-examples/src/test/scala/kuplrg/Spec.scala:131:58 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m131 |[0m      converted_lang.mustEqualWithGenerator(lang, [31m10_000[0m, Generator.a2n1_b3n1_accept([31m10[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                          ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                  Not found: Generator[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/pda-examples/src/test/scala/kuplrg/Spec.scala:132:57 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m132 |[0m      converted_lang.mustEqualWithGenerator(lang, [31m1_000[0m, Generator.a2n1_b3n1_random1([31m10[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                         ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                  Not found: Generator[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/pda-examples/src/test/scala/kuplrg/Spec.scala:133:57 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m133 |[0m      converted_lang.mustEqualWithGenerator(lang, [31m1_000[0m, Generator.a2n1_b3n1_random2([31m10[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                         ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                  Not found: Generator[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/pda-examples/src/test/scala/kuplrg/Spec.scala:155:58 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m155 |[0m      converted_lang.mustEqualWithGenerator(lang, [31m10_000[0m, Generator.abc_j_i2k_accept([31m10[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                          ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                  Not found: Generator[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/pda-examples/src/test/scala/kuplrg/Spec.scala:156:57 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m156 |[0m      converted_lang.mustEqualWithGenerator(lang, [31m1_000[0m, Generator.abc_j_i2k_random1([31m10[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                         ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                  Not found: Generator[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/pda-examples/src/test/scala/kuplrg/Spec.scala:157:57 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m157 |[0m      converted_lang.mustEqualWithGenerator(lang, [31m1_000[0m, Generator.abc_j_i2k_random2([31m10[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                         ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                  Not found: Generator[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/pda-examples/src/test/scala/kuplrg/Spec.scala:181:57 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m181 |[0m      converted_lang.mustEqualWithGenerator(lang, [31m5_000[0m, Generator.ord_brace_accept([31m5[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                         ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                  Not found: Generator[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/pda-examples/src/test/scala/kuplrg/Spec.scala:182:57 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m182 |[0m      converted_lang.mustEqualWithGenerator(lang, [31m5_000[0m, Generator.ord_brace_random([31m5[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                         ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                  Not found: Generator[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/pda-examples/src/test/scala/kuplrg/Spec.scala:209:57 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m209 |[0m      converted_lang.mustEqualWithGenerator(lang, [31m5_000[0m, Generator.ae_even_random([31m5[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                         ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                  Not found: Generator[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/pda-examples/src/test/scala/kuplrg/Spec.scala:230:57 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m230 |[0m      converted_lang.mustEqualWithGenerator(lang, [31m1_000[0m, Generator.eq_pair_reject([31m10[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                         ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                  Not found: Generator[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/pda-examples/src/test/scala/kuplrg/Spec.scala:231:57 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m231 |[0m      converted_lang.mustEqualWithGenerator(lang, [31m1_000[0m, Generator.eq_pair_random([31m10[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                         ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                  Not found: Generator[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `Generator` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `Generator` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m13 errors found[0m

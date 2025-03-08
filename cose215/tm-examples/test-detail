@@ -1,0 +1,17 @@
+[36mRun starting. Expected test count is: 0[0m
+[32mSpec:[0m
+[32mtm_square.mustValid.mustEqual(lang, 1000)[0m
+[32m- should be terminated normally (187 milliseconds)[0m
+[32mtm_square_check()[0m
+[32m- should be terminated normally (425 milliseconds)[0m
+[32mtm_eq_abc_check()[0m
+[32m- should be terminated normally (64 milliseconds)[0m
+[32mtm_dec.mustValid.mustEqual(func, 10000)[0m
+[32m- should be terminated normally (80 milliseconds)[0m
+[32mtm_add.mustValid.mustEqual(func, 20000)[0m
+[32m- should be terminated normally (30 milliseconds)[0m
+[36mRun completed in 1 second, 52 milliseconds.[0m
+[36mTotal number of tests run: 5[0m
+[36mSuites: completed 1, aborted 0[0m
+[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m
+[32mAll tests passed.[0m

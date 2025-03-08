@@ -1,0 +1,118 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E161] Naming Error: /home/gmk/cose215/scala-tutorial/src/test/scala/kuplrg/Spec.scala:5:6 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  5 |[0m[33mclass[0m [35mSpec[0m [33mextends[0m [35mSpecBase[0m {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mSpec is already defined as [33mclass[0m [35mSpec[0m in /home/gmk/cose215/scala-tutorial/src/test/scala/kuplrg/Spec(1).scala[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  6 |[0m  [34m// tests for `sqsum`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  7 |[0m  test(sqsum([31m0[0m, [31m0[0m), [31m0[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  8 |[0m  test(sqsum([31m2[0m, [31m3[0m), [31m13[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  9 |[0m  test(sqsum(-[31m3[0m, [31m4[0m), [31m25[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 10 |[0m  [34m// tests for `concat`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 11 |[0m  test(concat([31m"Hello "[0m, [31m"World!"[0m), [31m"Hello World!"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 12 |[0m  test(concat([31m"COSE"[0m, [31m"212"[0m), [31m"COSE212"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 13 |[0m  test(concat([31m"COSE"[0m, [31m"215"[0m), [31m"COSE215"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 14 |[0m  [34m// tests for `subN`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 15 |[0m  test(subN([31m3[0m)([31m5[0m), [31m2[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 16 |[0m  test(subN([31m4[0m)([31m13[0m), [31m9[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 17 |[0m  test(subN([31m243[0m)(-[31m942[0m), -[31m1185[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 18 |[0m  [34m// tests for `twice`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 19 |[0m  test(twice(_ + [31m3[0m)([31m1[0m), [31m7[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 20 |[0m  test(twice(subN([31m3[0m))([31m10[0m), [31m4[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 21 |[0m  test(twice(_ * [31m10[0m)([31m42[0m), [31m4200[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 22 |[0m  [34m// tests for `compose`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 23 |[0m  test(compose(_ + [31m3[0m, _ * [31m2[0m)([31m1[0m), [31m5[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 24 |[0m  test(compose(_ * [31m10[0m, _ + [31m1[0m)([31m42[0m), [31m430[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 25 |[0m  test(compose(subN([31m3[0m), subN([31m2[0m))([31m10[0m), [31m5[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 26 |[0m  [34m// tests for `sumOnlyOdd`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 27 |[0m  test(sumOnlyOdd(List([31m2[0m)), [31m0[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 28 |[0m  test(sumOnlyOdd(List([31m1[0m, [31m2[0m, [31m3[0m)), [31m4[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 29 |[0m  test(sumOnlyOdd(List([31m4[0m, [31m2[0m, [31m3[0m, [31m7[0m, [31m5[0m)), [31m15[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 30 |[0m  [34m// tests for `foldWith`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 31 |[0m  test(foldWith(_ + _)(List([31m1[0m, [31m2[0m, [31m3[0m)), [31m6[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 32 |[0m  test(foldWith(_ - _)(List([31m5[0m, [31m9[0m, [31m2[0m, [31m3[0m)), -[31m19[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 33 |[0m  test(foldWith(_ * [31m2[0m + _)(List([31m4[0m, [31m7[0m, [31m3[0m, [31m2[0m)), [31m68[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 34 |[0m  [34m// tests for `toSet`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 35 |[0m  test(toSet(List([31m1[0m, [31m5[0m, [31m2[0m, [31m7[0m, [31m4[0m, [31m2[0m, [31m4[0m), [31m0[0m), Set([31m1[0m, [31m2[0m, [31m4[0m, [31m5[0m, [31m7[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 36 |[0m  test(toSet(List([31m1[0m, [31m5[0m, [31m2[0m, [31m7[0m, [31m4[0m, [31m2[0m, [31m4[0m), [31m2[0m), Set([31m2[0m, [31m4[0m, [31m7[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 37 |[0m  test(toSet(List([31m1[0m, [31m5[0m, [31m2[0m, [31m7[0m, [31m4[0m, [31m2[0m, [31m4[0m), [31m4[0m), Set([31m2[0m, [31m4[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 38 |[0m  [34m// tests for `getOrZero`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 39 |[0m  [33mval[0m [36mm[0m: [35mMap[0m[[35mString[0m, [35mInt[0m] = Map([31m"Park"[0m -> [31m3[0m, [31m"Kim"[0m -> [31m5[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 40 |[0m  test(getOrZero(m, [31m"Park"[0m), [31m3[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 41 |[0m  test(getOrZero(m, [31m"Lee"[0m), [31m0[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 42 |[0m  test(getOrZero(m, [31m"Kim"[0m), [31m5[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 43 |[0m  [34m// tests for `setMinus`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 44 |[0m  test(setMinus(Set([31m1[0m, [31m2[0m, [31m3[0m), Set([31m2[0m, [31m3[0m, [31m4[0m)), Set([31m1[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 45 |[0m  test(setMinus(Set([31m1[0m, [31m2[0m, [31m3[0m), Set([31m4[0m, [31m5[0m, [31m6[0m)), Set([31m1[0m, [31m2[0m, [31m3[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 46 |[0m  test(setMinus(Set([31m1[0m, [31m2[0m, [31m3[0m), Set([31m1[0m, [31m2[0m, [31m3[0m, [31m4[0m)), Set())[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 47 |[0m  [34m// ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 48 |[0m  [34m// Trees[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 49 |[0m  [34m// ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 50 |[0m  [33mimport[0m Tree.*[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 51 |[0m  [34m//  8[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 52 |[0m  [33mval[0m [36mtree1[0m: [35mTree[0m = Leaf([31m8[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 53 |[0m  [34m//    4[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 54 |[0m  [34m//   / \[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 55 |[0m  [34m//  5   2[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 56 |[0m  [34m//     / \[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 57 |[0m  [34m//    8   3[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 58 |[0m  [33mval[0m [36mtree2[0m: [35mTree[0m = Branch(Leaf([31m5[0m), [31m4[0m, Branch(Leaf([31m8[0m), [31m2[0m, Leaf([31m3[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 59 |[0m  [34m//    7[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 60 |[0m  [34m//   / \[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 61 |[0m  [34m//  2   3[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 62 |[0m  [34m//     / \[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 63 |[0m  [34m//    5   1[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 64 |[0m  [34m//   / \[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 65 |[0m  [34m//  1   8[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 66 |[0m  [33mval[0m [36mtree3[0m: [35mTree[0m = Branch(Leaf([31m2[0m), [31m7[0m, Branch(Branch(Leaf([31m1[0m), [31m5[0m, Leaf([31m8[0m)), [31m3[0m, Leaf([31m1[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 67 |[0m  [34m// tests for `has`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 68 |[0m  test(has([31m8[0m)(tree1), [31mtrue[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 69 |[0m  test(has([31m7[0m)(tree2), [31mfalse[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 70 |[0m  test(has([31m1[0m)(tree3), [31mtrue[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 71 |[0m  [34m// tests for `maxDepthOf`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 72 |[0m  test(maxDepthOf([31m8[0m)(tree1), Some([31m0[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 73 |[0m  test(maxDepthOf([31m7[0m)(tree2), None)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 74 |[0m  test(maxDepthOf([31m1[0m)(tree3), Some([31m3[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 75 |[0m  [34m// tests for `mul`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 76 |[0m  test(mul(tree1), [31m8[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 77 |[0m  test(mul(tree2), [31m960[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 78 |[0m  test(mul(tree3), [31m1680[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 79 |[0m  [34m// tests for `countLeaves`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 80 |[0m  test(countLeaves(tree1), [31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 81 |[0m  test(countLeaves(tree2), [31m3[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 82 |[0m  test(countLeaves(tree3), [31m4[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 83 |[0m  [34m// tests for `postOrder`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 84 |[0m  test(postOrder(tree1), List([31m8[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 85 |[0m  test(postOrder(tree2), List([31m5[0m, [31m8[0m, [31m3[0m, [31m2[0m, [31m4[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 86 |[0m  test(postOrder(tree3), List([31m2[0m, [31m1[0m, [31m8[0m, [31m5[0m, [31m1[0m, [31m3[0m, [31m7[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 87 |[0m  [34m// ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 88 |[0m  [34m// Boolean Expressions[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 89 |[0m  [34m// ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 90 |[0m  [33mimport[0m BE.*[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 91 |[0m  [34m// (true | false)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 92 |[0m  [33mval[0m [36mbe1[0m: [35mBE[0m = Or(True, False)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 93 |[0m  [34m// (!(true | false) & !(false | true))[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 94 |[0m  [33mval[0m [36mbe2[0m: [35mBE[0m = And(Not(Or(True, False)), Not(Or(False, True)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 95 |[0m  [34m// (!((false | !true) & false) & (true & !false))[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 96 |[0m  [33mval[0m [36mbe3[0m: [35mBE[0m = And(Not(And(Or(False, Not(True)), False)), And(True, Not(False)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 97 |[0m  [34m// tests for `countLiterals`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 98 |[0m  test(countLiterals(be1), [31m2[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 99 |[0m  test(countLiterals(be2), [31m4[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m100 |[0m  test(countLiterals(be3), [31m5[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m101 |[0m  [34m// tests for `countNots`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m102 |[0m  test(countNots(be1), [31m0[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m103 |[0m  test(countNots(be2), [31m2[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m104 |[0m  test(countNots(be3), [31m3[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m105 |[0m  [34m// tests for `depth`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m106 |[0m  test(depth(be1), [31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m107 |[0m  test(depth(be2), [31m3[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m108 |[0m  test(depth(be3), [31m5[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m109 |[0m  [34m// tests for `eval`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m110 |[0m  test(eval(be1), [31mtrue[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m111 |[0m  test(eval(be2), [31mfalse[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m112 |[0m  test(eval(be3), [31mtrue[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m113 |[0m  [34m// tests for `getString`[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m114 |[0m  test(getString(be1), [31m"(true | false)"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m115 |[0m  test(getString(be2), [31m"(!(true | false) & !(false | true))"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m116 |[0m  test(getString(be3), [31m"(!((false | !true) & false) & (true & !false))"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m117 |[0m  [34m/* Write your own tests */[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m118 |[0m}[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

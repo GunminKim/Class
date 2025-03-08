@@ -1,0 +1,88 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/gmk/cose215/equiv-cfg-pda/src/main/scala/kuplrg/Implementation.scala:203:82 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m203 |[0m        [33mcase[0m (map, (vari, rhs)) => map + (vari -> (map.getOrElse(vari, List()) ++ rhs))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                                                  ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    Found:    (rhs : kuplrg.Rhs)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                    Required: IterableOnce[kuplrg.Rhs][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Tree: rhs[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m I tried to show that[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m   (rhs : kuplrg.Rhs)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m conforms to[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m   IterableOnce[kuplrg.Rhs][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m but the comparison trace ended with `false`:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m   ==> (rhs : kuplrg.Rhs)  <:  IterableOnce[kuplrg.Rhs][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m     ==> kuplrg.Rhs  <:  IterableOnce[kuplrg.Rhs] (left is approximated)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m     <== kuplrg.Rhs  <:  IterableOnce[kuplrg.Rhs] (left is approximated) = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m   <== (rhs : kuplrg.Rhs)  <:  IterableOnce[kuplrg.Rhs] = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The tests were made under a constraint with:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  uninstantiated variables: B, V1, A, B, B, B[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  constrained types: [B](z: B)(op: (B, (String, kuplrg.Rhs)) => B): B,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m   [B](z: B)(op: (B, (String, kuplrg.Rhs)) => B): B,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m   [V1 >: List[kuplrg.Rhs]][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m     (elem1: (String, V1), elem2: (String, V1), elems: (String, V1)*):[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m       Map[String, V1][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m   ,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m [V1 >: List[kuplrg.Rhs]](kv: (String, V1)): Map[String, V1],[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m   [A](self: A): ArrowAssoc[A], [B](y: B): (A, B), [B](y: B): (A, B),[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m   [B >: kuplrg.Rhs](suffix: IterableOnce[B]): List[B],[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m   [B >: kuplrg.Rhs](suffix: IterableOnce[B]): List[B][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  bounds:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m      B[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m      B := Map[String, List[kuplrg.Rhs]][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m      V1 >: List[kuplrg.Rhs][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m      V1 := List[kuplrg.Rhs][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m      A >: (vari : String) <: String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m      B[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m      B >: List[kuplrg.Rhs] <: List[kuplrg.Rhs][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m      B >: kuplrg.Rhs[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m      B := kuplrg.Rhs[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  ordering:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  co-deps:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  contra-deps:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mTree: rhs[0m
+[0m[[0m[31merror[0m] [0m[0mI tried to show that[0m
+[0m[[0m[31merror[0m] [0m[0m  (rhs : kuplrg.Rhs)[0m
+[0m[[0m[31merror[0m] [0m[0mconforms to[0m
+[0m[[0m[31merror[0m] [0m[0m  IterableOnce[kuplrg.Rhs][0m
+[0m[[0m[31merror[0m] [0m[0mbut the comparison trace ended with `false`:[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  ==> (rhs : kuplrg.Rhs)  <:  IterableOnce[kuplrg.Rhs][0m
+[0m[[0m[31merror[0m] [0m[0m    ==> kuplrg.Rhs  <:  IterableOnce[kuplrg.Rhs] (left is approximated)[0m
+[0m[[0m[31merror[0m] [0m[0m    <== kuplrg.Rhs  <:  IterableOnce[kuplrg.Rhs] (left is approximated) = false[0m
+[0m[[0m[31merror[0m] [0m[0m  <== (rhs : kuplrg.Rhs)  <:  IterableOnce[kuplrg.Rhs] = false[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe tests were made under a constraint with:[0m
+[0m[[0m[31merror[0m] [0m[0m uninstantiated variables: B, V1, A, B, B, B[0m
+[0m[[0m[31merror[0m] [0m[0m constrained types: [B](z: B)(op: (B, (String, kuplrg.Rhs)) => B): B,[0m
+[0m[[0m[31merror[0m] [0m[0m  [B](z: B)(op: (B, (String, kuplrg.Rhs)) => B): B,[0m
+[0m[[0m[31merror[0m] [0m[0m  [V1 >: List[kuplrg.Rhs]][0m
+[0m[[0m[31merror[0m] [0m[0m    (elem1: (String, V1), elem2: (String, V1), elems: (String, V1)*):[0m
+[0m[[0m[31merror[0m] [0m[0m      Map[String, V1][0m
+[0m[[0m[31merror[0m] [0m[0m  ,[0m
+[0m[[0m[31merror[0m] [0m[0m[V1 >: List[kuplrg.Rhs]](kv: (String, V1)): Map[String, V1],[0m
+[0m[[0m[31merror[0m] [0m[0m  [A](self: A): ArrowAssoc[A], [B](y: B): (A, B), [B](y: B): (A, B),[0m
+[0m[[0m[31merror[0m] [0m[0m  [B >: kuplrg.Rhs](suffix: IterableOnce[B]): List[B],[0m
+[0m[[0m[31merror[0m] [0m[0m  [B >: kuplrg.Rhs](suffix: IterableOnce[B]): List[B][0m
+[0m[[0m[31merror[0m] [0m[0m bounds:[0m
+[0m[[0m[31merror[0m] [0m[0m     B[0m
+[0m[[0m[31merror[0m] [0m[0m     B := Map[String, List[kuplrg.Rhs]][0m
+[0m[[0m[31merror[0m] [0m[0m     V1 >: List[kuplrg.Rhs][0m
+[0m[[0m[31merror[0m] [0m[0m     V1 := List[kuplrg.Rhs][0m
+[0m[[0m[31merror[0m] [0m[0m     A >: (vari : String) <: String[0m
+[0m[[0m[31merror[0m] [0m[0m     B[0m
+[0m[[0m[31merror[0m] [0m[0m     B >: List[kuplrg.Rhs] <: List[kuplrg.Rhs][0m
+[0m[[0m[31merror[0m] [0m[0m     B >: kuplrg.Rhs[0m
+[0m[[0m[31merror[0m] [0m[0m     B := kuplrg.Rhs[0m
+[0m[[0m[31merror[0m] [0m[0m ordering:[0m
+[0m[[0m[31merror[0m] [0m[0m co-deps:[0m
+[0m[[0m[31merror[0m] [0m[0m contra-deps:[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

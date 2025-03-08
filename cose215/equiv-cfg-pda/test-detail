@@ -1,0 +1,87 @@
+[36mRun starting. Expected test count is: 0[0m
+[32mSpec:[0m
+[32mpdafs2es(pda1).langByEmptyStacks.mustEqual(pda1.langByFinalStates, TRI ...[0m
+[32m- should be terminated normally (187 milliseconds)[0m
+[32mpdafs2es(pda2).langByEmptyStacks.mustEqual(pda2.langByFinalStates, TRI ...[0m
+[32m- should be terminated normally (59 milliseconds)[0m
+[32mpdafs2es(pda3).langByEmptyStacks.mustEqual(pda3.langByFinalStates, TRI ...[0m
+[32m- should be terminated normally (104 milliseconds)[0m
+[32mpdafs2es(pda4).langByEmptyStacks.mustEqual(pda4.langByFinalStates, TRI ...[0m
+[32m- should be terminated normally (47 milliseconds)[0m
+[32mpdafs2es(pda5).langByEmptyStacks.mustEqual(pda5.langByFinalStates, TRI ...[0m
+[32m- should be terminated normally (127 milliseconds)[0m
+[32mpdafs2es(pda6).langByEmptyStacks.mustEqual(pda6.langByFinalStates, TRI ...[0m
+[32m- should be terminated normally (423 milliseconds)[0m
+[32mpdafs2es(pda7).langByEmptyStacks.mustEqual(pda7.langByFinalStates, TRI ...[0m
+[32m- should be terminated normally (21 milliseconds)[0m
+[32mpdafs2es(pda8).langByEmptyStacks.mustEqual(pda8.langByFinalStates, TRI ...[0m
+[32m- should be terminated normally (33 milliseconds)[0m
+[32mpdafs2es(pda9).langByEmptyStacks.mustEqual(pda9.langByFinalStates, TRI ...[0m
+[32m- should be terminated normally (104 milliseconds)[0m
+[32mpdafs2es(pda10).langByEmptyStacks.mustEqual(pda10.langByFinalStates, T ...[0m
+[32m- should be terminated normally (17 milliseconds)[0m
+[32mpdaes2fs(pda11).langByFinalStates.mustEqual(pda11.langByEmptyStacks, T ...[0m
+[32m- should be terminated normally (23 milliseconds)[0m
+[32mpdaes2fs(pda12).langByFinalStates.mustEqual(pda12.langByEmptyStacks, T ...[0m
+[32m- should be terminated normally (21 milliseconds)[0m
+[32mpdaes2fs(pda13).langByFinalStates.mustEqual(pda13.langByEmptyStacks, T ...[0m
+[32m- should be terminated normally (77 milliseconds)[0m
+[32mpdaes2fs(pda14).langByFinalStates.mustEqual(pda14.langByEmptyStacks, T ...[0m
+[32m- should be terminated normally (29 milliseconds)[0m
+[32mpdaes2fs(pda15).langByFinalStates.mustEqual(pda15.langByEmptyStacks, T ...[0m
+[32m- should be terminated normally (170 milliseconds)[0m
+[32mpdaes2fs(pda16).langByFinalStates.mustEqual(pda16.langByEmptyStacks, T ...[0m
+[32m- should be terminated normally (267 milliseconds)[0m
+[32mpdaes2fs(pda17).langByFinalStates.mustEqual(pda17.langByEmptyStacks, T ...[0m
+[32m- should be terminated normally (12 milliseconds)[0m
+[32mpdaes2fs(pda18).langByFinalStates.mustEqual(pda18.langByEmptyStacks, T ...[0m
+[32m- should be terminated normally (18 milliseconds)[0m
+[32mpdaes2fs(pda19).langByFinalStates.mustEqual(pda19.langByEmptyStacks, T ...[0m
+[32m- should be terminated normally (50 milliseconds)[0m
+[32mpdaes2fs(pda20).langByFinalStates.mustEqual(pda20.langByEmptyStacks, T ...[0m
+[32m- should be terminated normally (11 milliseconds)[0m
+[32mcfg2pdaes(cfg1).langByEmptyStacks.mustEqual(lang_an, TRIAL)[0m
+[32m- should be terminated normally (51 milliseconds)[0m
+[32mcfg2pdaes(cfg2).langByEmptyStacks.mustEqual(lang_an_bn, TRIAL)[0m
+[32m- should be terminated normally (7 milliseconds)[0m
+[32mcfg2pdaes(cfg3).langByEmptyStacks.mustEqual(lang_an_b2n, TRIAL)[0m
+[32m- should be terminated normally (8 milliseconds)[0m
+[32mcfg2pdaes(cfg4).langByEmptyStacks.mustEqual(lang_w_wR, TRIAL)[0m
+[32m- should be terminated normally (96 milliseconds)[0m
+[32mcfg2pdaes(cfg5).langByEmptyStacks.mustEqual(lang_na_eq_nb, TRIAL)[0m
+[32m- should be terminated normally (255 milliseconds)[0m
+[32mcfg2pdaes(cfg6).langByEmptyStacks.mustEqual(lang_a_eq_b_c, TRIAL)[0m
+[32m- should be terminated normally (722 milliseconds)[0m
+[32mcfg2pdaes(cfg7).langByEmptyStacks.mustEqual(lang_a2n1_b2n1, TRIAL)[0m
+[32m- should be terminated normally (7 milliseconds)[0m
+[32mcfg2pdaes(cfg8).langByEmptyStacks.mustEqual(lang_a2n_b2n, TRIAL)[0m
+[32m- should be terminated normally (6 milliseconds)[0m
+[32mcfg2pdaes(cfg9).langByEmptyStacks.mustEqual(lang_bn_am_b2n, TRIAL)[0m
+[32m- should be terminated normally (26 milliseconds)[0m
+[32mcfg2pdaes(cfg10).langByEmptyStacks.mustEqual(lang_balanced, TRIAL)[0m
+[32m- should be terminated normally (33 milliseconds)[0m
+[32mpdaes2cfg(pda11).lang.mustEqual(lang_an_bn, TRIAL)[0m
+[32m- should be terminated normally (201 milliseconds)[0m
+[32mpdaes2cfg(pda12).lang.mustEqual(lang_an_b2n, TRIAL)[0m
+[32m- should be terminated normally (76 milliseconds)[0m
+[32mpdaes2cfg(pda13).lang.mustEqual(lang_w_wR, TRIAL)[0m
+[32m- should be terminated normally (306 milliseconds)[0m
+[32mpdaes2cfg(pda14).lang.mustEqual(lang_na_eq_nb, TRIAL)[0m
+[32m- should be terminated normally (77 milliseconds)[0m
+[32mpdaes2cfg(pda15).lang.mustEqual(lang_na_neq_nb, TRIAL)[0m
+[32m- should be terminated normally (305 milliseconds)[0m
+[32mpdaes2cfg(pda16).lang.mustEqual(lang_not_w_w, TRIAL)[0m
+[32m- should be terminated normally (3 seconds, 439 milliseconds)[0m
+[32mpdaes2cfg(pda17).lang.mustEqual(lang_a2n1_b2n1, TRIAL)[0m
+[32m- should be terminated normally (56 milliseconds)[0m
+[32mpdaes2cfg(pda18).lang.mustEqual(lang_a2n_b2n, TRIAL)[0m
+[32m- should be terminated normally (38 milliseconds)[0m
+[32mpdaes2cfg(pda19).lang.mustEqual(lang_bn_am_b2n, TRIAL)[0m
+[32m- should be terminated normally (155 milliseconds)[0m
+[32mpdaes2cfg(pda20).lang.mustEqual(lang_balanced, TRIAL)[0m
+[32m- should be terminated normally (10 milliseconds)[0m
+[36mRun completed in 7 seconds, 988 milliseconds.[0m
+[36mTotal number of tests run: 40[0m
+[36mSuites: completed 1, aborted 0[0m
+[36mTests: succeeded 40, failed 0, canceled 0, ignored 0, pending 0[0m
+[32mAll tests passed.[0m

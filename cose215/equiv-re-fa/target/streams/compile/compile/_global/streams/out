@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /home/gmk/cose215/equiv-re-fa/src/main/scala/kuplrg/Implementation.scala:176:3 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m176 |[0m	  Union(reForPaths(dfa,i,j,k-[31m1[0m),Concat((Concat(reForPaths(dfa,i,k,k-[31m1[0m),Star(reForPaths(dfa,k,k,k-[31m1[0m)))),reForPaths(dfa,k,j,k-[31m1[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m	  ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Incompatible combinations of tabs and spaces in indentation prefixes.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Previous indent : 4 spaces[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Latest indent   : 1 tab, 2 spaces[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

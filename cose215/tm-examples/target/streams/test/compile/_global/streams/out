@@ -1,0 +1,109 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/tm-examples/src/test/scala/kuplrg/Spec.scala:75:19 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m75 |[0m[33mclass[0m [35mSpec[0m [33mextends[0m [35mSpecBase[0m {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                   ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                   Not found: type SpecBase[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The identifier for `type SpecBase` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m That can happen, for example, if `SpecBase` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `type SpecBase` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `SpecBase` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/tm-examples/src/test/scala/kuplrg/Spec.scala:83:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m83 |[0m    check(tm_square.mustValid.mustEqual(lang, [31m1_000[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: check[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The identifier for `check` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m That can happen, for example, if `check` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `check` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `check` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/tm-examples/src/test/scala/kuplrg/Spec.scala:101:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m101 |[0m    check(tm_square_check())[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Not found: check[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `check` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `check` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `check` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `check` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/tm-examples/src/test/scala/kuplrg/Spec.scala:119:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m119 |[0m    check(tm_eq_abc_check())[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Not found: check[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `check` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `check` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `check` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `check` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/tm-examples/src/test/scala/kuplrg/Spec.scala:131:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m131 |[0m    check(tm_dec.mustValid.mustEqual(func, [31m10_000[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Not found: check[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `check` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `check` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `check` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `check` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/tm-examples/src/test/scala/kuplrg/Spec.scala:144:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m144 |[0m    check(tm_add.mustValid.mustEqual(func, [31m20_000[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Not found: check[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m The identifier for `check` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m That can happen, for example, if `check` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     ---------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `check` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `check` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m

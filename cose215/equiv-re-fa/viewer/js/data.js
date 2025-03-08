@@ -1,0 +1,1 @@
+window.data = {"data":{"finalStates":[4],"initState":1,"states":[1,2,3,4],"symbols":["0"],"trans":{"1":{"":[2,4]},"2":{"0":[3]},"3":{"":[2,4]}}},"kind":"enfa","mapping":{}};

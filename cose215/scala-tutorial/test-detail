@@ -1,0 +1,327 @@
+[36mRun starting. Expected test count is: 0[0m
+[32mSpec:[0m
+[32msqsum(0, 0)[0m
+[32m- should be 0 (23 milliseconds)[0m
+[32msqsum(2, 3)[0m
+[32m- should be 13 (3 milliseconds)[0m
+[32msqsum(-3, 4)[0m
+[32m- should be 25 (5 milliseconds)[0m
+[32msqsum(5, 12)[0m
+[32m- should be 169 (1 millisecond)[0m
+[32msqsum(-5, -12)[0m
+[32m- should be 169 (1 millisecond)[0m
+[32msqsum(0, 10)[0m
+[32m- should be 100 (1 millisecond)[0m
+[32msqsum(10, 0)[0m
+[32m- should be 100 (1 millisecond)[0m
+[32msqsum(-7, 7)[0m
+[32m- should be 98 (1 millisecond)[0m
+[32msqsum(20, 21)[0m
+[32m- should be 841 (1 millisecond)[0m
+[32msqsum(-15, 15)[0m
+[32m- should be 450 (1 millisecond)[0m
+[32mconcat("Hello ", "World!")[0m
+[32m- should be "Hello World!" (0 milliseconds)[0m
+[32mconcat("COSE", "212")[0m
+[32m- should be "COSE212" (1 millisecond)[0m
+[32mconcat("COSE", "215")[0m
+[32m- should be "COSE215" (1 millisecond)[0m
+[32mconcat("PL", "RG")[0m
+[32m- should be "PLRG" (1 millisecond)[0m
+[32mconcat("Scala", "")[0m
+[32m- should be "Scala" (0 milliseconds)[0m
+[32mconcat("", "Test")[0m
+[32m- should be "Test" (0 milliseconds)[0m
+[32mconcat("123", "456")[0m
+[32m- should be "123456" (1 millisecond)[0m
+[32mconcat("Jihyeok ", "Park")[0m
+[32m- should be "Jihyeok Park" (0 milliseconds)[0m
+[32mconcat("Computation", "Theory")[0m
+[32m- should be "ComputationTheory" (0 milliseconds)[0m
+[32mconcat("    ", "    ")[0m
+[32m- should be "        " (1 millisecond)[0m
+[32msubN(3)(5)[0m
+[32m- should be 2 (2 milliseconds)[0m
+[32msubN(4)(13)[0m
+[32m- should be 9 (1 millisecond)[0m
+[32msubN(243)(-942)[0m
+[32m- should be -1185 (1 millisecond)[0m
+[32msubN(10)(3)[0m
+[32m- should be -7 (1 millisecond)[0m
+[32msubN(0)(0)[0m
+[32m- should be 0 (1 millisecond)[0m
+[32msubN(-5)(10)[0m
+[32m- should be 15 (2 milliseconds)[0m
+[32msubN(20)(-40)[0m
+[32m- should be -60 (1 millisecond)[0m
+[32msubN(50)(50)[0m
+[32m- should be 0 (0 milliseconds)[0m
+[32msubN(7)(-14)[0m
+[32m- should be -21 (1 millisecond)[0m
+[32msubN(100)(1)[0m
+[32m- should be -99 (1 millisecond)[0m
+[32mtwice(((_: Int) => _.+(3)))(1)[0m
+[32m- should be 7 (2 milliseconds)[0m
+[32mtwice(subN(3))(10)[0m
+[32m- should be 4 (2 milliseconds)[0m
+[32mtwice(((_: Int) => _.*(10)))(42)[0m
+[32m- should be 4200 (1 millisecond)[0m
+[32mtwice(((_: Int) => _.-(2)))(10)[0m
+[32m- should be 6 (1 millisecond)[0m
+[32mtwice(((_: Int) => _./(2)))(20)[0m
+[32m- should be 5 (1 millisecond)[0m
+[32mtwice(((_: Int) => _.*(3)))(1)[0m
+[32m- should be 9 (1 millisecond)[0m
+[32mtwice(((_: Int) => _.+(100)))(-50)[0m
+[32m- should be 150 (1 millisecond)[0m
+[32mtwice(((_: Int) => _.-(5)))(20)[0m
+[32m- should be 10 (1 millisecond)[0m
+[32mtwice(((x: Int) => x.*(x)))(2)[0m
+[32m- should be 16 (1 millisecond)[0m
+[32mtwice(((x: Int) => x./(3)))(27)[0m
+[32m- should be 3 (1 millisecond)[0m
+[32mcompose(((_: Int) => _.+(3)), ((_: Int) => _.*(2)))(1)[0m
+[32m- should be 5 (2 milliseconds)[0m
+[32mcompose(((_: Int) => _.*(10)), ((_: Int) => _.+(1)))(42)[0m
+[32m- should be 430 (2 milliseconds)[0m
+[32mcompose(subN(3), subN(2))(10)[0m
+[32m- should be 5 (1 millisecond)[0m
+[32mcompose(((_: Int) => _.-(1)), ((_: Int) => _.*(3)))(10)[0m
+[32m- should be 29 (1 millisecond)[0m
+[32mcompose(((_: Int) => _./(2)), ((_: Int) => _.+(10)))(20)[0m
+[32m- should be 15 (1 millisecond)[0m
+[32mcompose(((_: Int) => _.+(5)), ((_: Int) => _.-(3)))(2)[0m
+[32m- should be 4 (1 millisecond)[0m
+[32mcompose(((_: Int) => _.*(2)), ((_: Int) => _./(4)))(16)[0m
+[32m- should be 8 (0 milliseconds)[0m
+[32mcompose(((_: Int) => _.-(10)), ((_: Int) => _.*(10)))(3)[0m
+[32m- should be 20 (1 millisecond)[0m
+[32mcompose(((x: Int) => x.*(x)), ((_: Int) => _.-(2)))(3)[0m
+[32m- should be 1 (1 millisecond)[0m
+[32mcompose(((_: Int) => _.+(3)), ((x: Int) => x.*(x)))(4)[0m
+[32m- should be 19 (2 milliseconds)[0m
+[32msumOnlyOdd(List[Int](2))[0m
+[32m- should be 0 (6 milliseconds)[0m
+[32msumOnlyOdd(List[Int](1, 2, 3))[0m
+[32m- should be 4 (1 millisecond)[0m
+[32msumOnlyOdd(List[Int](4, 2, 3, 7, 5))[0m
+[32m- should be 15 (1 millisecond)[0m
+[32msumOnlyOdd(List[Int](1, 3, 5, 7, 9))[0m
+[32m- should be 25 (0 milliseconds)[0m
+[32msumOnlyOdd(List[Int](0, 2, 4, 6, 8))[0m
+[32m- should be 0 (1 millisecond)[0m
+[32msumOnlyOdd(List[Int](11, 22, 33, 44, 55))[0m
+[32m- should be 99 (1 millisecond)[0m
+[32msumOnlyOdd(List[Nothing]())[0m
+[32m- should be 0 (1 millisecond)[0m
+[32msumOnlyOdd(List[Int](101, 102, 103))[0m
+[32m- should be 204 (0 milliseconds)[0m
+[32msumOnlyOdd(List[Int](1, 2, 3, 4, 5, 6, 7, 8, 9))[0m
+[32m- should be 25 (1 millisecond)[0m
+[32msumOnlyOdd(List[Int](1, 2, 3, 4, 5, 6, 7, 8, 9, 10))[0m
+[32m- should be 25 (1 millisecond)[0m
+[32mfoldWith(((_: Int, _: Int) => _.+(_)))(List[Int](1, 2, 3))[0m
+[32m- should be 6 (2 milliseconds)[0m
+[32mfoldWith(((_: Int, _: Int) => _.-(_)))(List[Int](5, 9, 2, 3))[0m
+[32m- should be -19 (0 milliseconds)[0m
+[32mfoldWith(((_: Int, _: Int) => _.*(2).+(_)))(List[Int](4, 7, 3, 2))[0m
+[32m- should be 68 (4 milliseconds)[0m
+[32mfoldWith(((_: Int, _: Int) => _.+(_)))(List[Int](10, 20, 30))[0m
+[32m- should be 60 (3 milliseconds)[0m
+[32mfoldWith(((_: Int, _: Int) => _.*(_)))(List[Int](1, 2, 3, 4))[0m
+[32m- should be 0 (1 millisecond)[0m
+[32mfoldWith(((_: Int, _: Int) => _.-(_)))(List[Int](100, 10, 5))[0m
+[32m- should be -115 (1 millisecond)[0m
+[32mfoldWith(((_: Int, _: Int) => _./(_)))(List[Int](120, 2, 3))[0m
+[32m- should be 0 (1 millisecond)[0m
+[32mfoldWith(((_: Int, _: Int) => Predef.intWrapper(_).max(_)))(List[Int]( ...[0m
+[32m- should be 7 (1 millisecond)[0m
+[32mfoldWith(((_: Int, _: Int) => Predef.intWrapper(_).min(_)))(List[Int]( ...[0m
+[32m- should be 0 (4 milliseconds)[0m
+[32mfoldWith(((x: Int, y: Int) => x.+(y.*(2))))(List[Int](1, 2, 3, 4))[0m
+[32m- should be 20 (1 millisecond)[0m
+[32mtoSet(List[Int](1, 5, 2, 7, 4, 2, 4), 0)[0m
+[32m- should be Predef.Set[Int](1, 2, 4, 5, 7) (2 milliseconds)[0m
+[32mtoSet(List[Int](1, 5, 2, 7, 4, 2, 4), 2)[0m
+[32m- should be Predef.Set[Int](2, 4, 7) (0 milliseconds)[0m
+[32mtoSet(List[Int](1, 5, 2, 7, 4, 2, 4), 4)[0m
+[32m- should be Predef.Set[Int](2, 4) (1 millisecond)[0m
+[32mtoSet(List[Int](1, 5, 2, 7, 4, 2, 4), 5)[0m
+[32m- should be Predef.Set[Int](2, 4) (1 millisecond)[0m
+[32mtoSet(List[Int](1, 5, 2, 7, 4, 2, 4), 1)[0m
+[32m- should be Predef.Set[Int](5, 2, 7, 4, 2, 4) (0 milliseconds)[0m
+[32mtoSet(List[Int](1, 5, 2, 7, 4, 2, 4), 3)[0m
+[32m- should be Predef.Set[Int](7, 4, 2, 4) (1 millisecond)[0m
+[32mtoSet(List[Int](1), 0)[0m
+[32m- should be Predef.Set[Int](1) (1 millisecond)[0m
+[32mtoSet(List[Int](1, 2, 3, 4, 5, 6, 7, 8, 9), 8)[0m
+[32m- should be Predef.Set[Int](9) (0 milliseconds)[0m
+[32mtoSet(List[Int](1, 2, 3, 4, 5, 6, 7, 8, 9), 0)[0m
+[32m- should be Predef.Set[Int](1, 2, 3, 4, 5, 6, 7, 8, 9) (0 milliseconds)[0m
+[32mtoSet(List[Int](1, 2, 3, 4, 5, 6, 7, 8, 9), 4)[0m
+[32m- should be Predef.Set[Int](5, 6, 7, 8, 9) (0 milliseconds)[0m
+[32mgetOrZero(m, "Park")[0m
+[32m- should be 3 (2 milliseconds)[0m
+[32mgetOrZero(m, "Lee")[0m
+[32m- should be 0 (1 millisecond)[0m
+[32mgetOrZero(m, "Kim")[0m
+[32m- should be 5 (1 millisecond)[0m
+[32mgetOrZero(m, "Choi")[0m
+[32m- should be 0 (2 milliseconds)[0m
+[32mgetOrZero(m, "")[0m
+[32m- should be 0 (1 millisecond)[0m
+[32mgetOrZero(Predef.Map[java.lang.String, Int](Predef.ArrowAssoc[java.lan ...[0m
+[32m- should be 0 (1 millisecond)[0m
+[32mgetOrZero(Predef.Map[java.lang.String, Int](Predef.ArrowAssoc[java.lan ...[0m
+[32m- should be -5 (1 millisecond)[0m
+[32mgetOrZero(Predef.Map[java.lang.String, Nothing](), "Absent")[0m
+[32m- should be 0 (1 millisecond)[0m
+[32mgetOrZero(Predef.Map[java.lang.String, Int](Predef.ArrowAssoc[java.lan ...[0m
+[32m- should be 2 (1 millisecond)[0m
+[32mgetOrZero(Predef.Map[java.lang.String, Int](Predef.ArrowAssoc[java.lan ...[0m
+[32m- should be 200 (1 millisecond)[0m
+[32msetMinus(Predef.Set[Int](1, 2, 3), Predef.Set[Int](2, 3, 4))[0m
+[32m- should be Predef.Set[Int](1) (2 milliseconds)[0m
+[32msetMinus(Predef.Set[Int](1, 2, 3), Predef.Set[Int](4, 5, 6))[0m
+[32m- should be Predef.Set[Int](1, 2, 3) (0 milliseconds)[0m
+[32msetMinus(Predef.Set[Int](1, 2, 3), Predef.Set[Int](1, 2, 3, 4))[0m
+[32m- should be Predef.Set[Int]() (0 milliseconds)[0m
+[32msetMinus(Predef.Set[Int](10, 20, 30), Predef.Set[Int](20))[0m
+[32m- should be Predef.Set[Int](10, 30) (0 milliseconds)[0m
+[32msetMinus(Predef.Set[Int](), Predef.Set[Int](1, 2, 3))[0m
+[32m- should be Predef.Set[Int]() (3 milliseconds)[0m
+[32msetMinus(Predef.Set[Int](1, 2, 3), Predef.Set[Int]())[0m
+[32m- should be Predef.Set[Int](1, 2, 3) (3 milliseconds)[0m
+[32msetMinus(Predef.Set[Int](1, 2, 3), Predef.Set[Int](1, 2, 3))[0m
+[32m- should be Predef.Set[Int]() (1 millisecond)[0m
+[32msetMinus(Predef.Set[Int](1, 3, 5, 7, 9), Predef.Set[Int](2, 4, 6, 8))[0m
+[32m- should be Predef.Set[Int](1, 3, 5, 7, 9) (4 milliseconds)[0m
+[32msetMinus(Predef.Set[Int](-1, -2, -3), Predef.Set[Int](-3, -4, -5))[0m
+[32m- should be Predef.Set[Int](-1, -2) (0 milliseconds)[0m
+[32msetMinus(Predef.Set[Int](1, 2, 3, 4, 5), Predef.Set[Int](1, 2, 3, 4, 5 ...[0m
+[32m- should be Predef.Set[Int]() (2 milliseconds)[0m
+[32mhas(8)(tree1)[0m
+[32m- should be true (1 millisecond)[0m
+[32mhas(7)(tree2)[0m
+[32m- should be false (1 millisecond)[0m
+[32mhas(1)(tree3)[0m
+[32m- should be true (1 millisecond)[0m
+[32mhas(10)(tree4)[0m
+[32m- should be true (0 milliseconds)[0m
+[32mhas(20)(tree4)[0m
+[32m- should be true (0 milliseconds)[0m
+[32mhas(6)(tree4)[0m
+[32m- should be false (0 milliseconds)[0m
+[32mhas(1)(tree5)[0m
+[32m- should be true (0 milliseconds)[0m
+[32mhas(9)(tree5)[0m
+[32m- should be true (1 millisecond)[0m
+[32mhas(2)(tree5)[0m
+[32m- should be true (1 millisecond)[0m
+[32mhas(11)(tree4)[0m
+[32m- should be false (2 milliseconds)[0m
+[32mmaxDepthOf(8)(tree1)[0m
+[32m- should be Some[Int](0) (1 millisecond)[0m
+[32mmaxDepthOf(7)(tree2)[0m
+[32m- should be None (0 milliseconds)[0m
+[32mmaxDepthOf(1)(tree3)[0m
+[32m- should be Some[Int](3) (1 millisecond)[0m
+[32mmaxDepthOf(10)(tree4)[0m
+[32m- should be Some[Int](0) (1 millisecond)[0m
+[32mmaxDepthOf(20)(tree4)[0m
+[32m- should be Some[Int](2) (1 millisecond)[0m
+[32mmaxDepthOf(6)(tree4)[0m
+[32m- should be None (0 milliseconds)[0m
+[32mmaxDepthOf(11)(tree4)[0m
+[32m- should be None (0 milliseconds)[0m
+[32mmaxDepthOf(1)(tree5)[0m
+[32m- should be Some[Int](1) (0 milliseconds)[0m
+[32mmaxDepthOf(9)(tree5)[0m
+[32m- should be Some[Int](4) (1 millisecond)[0m
+[32mmaxDepthOf(10)(tree5)[0m
+[32m- should be None (1 millisecond)[0m
+[32mmul(tree1)[0m
+[32m- should be 8 (1 millisecond)[0m
+[32mmul(tree2)[0m
+[32m- should be 960 (1 millisecond)[0m
+[32mmul(tree3)[0m
+[32m- should be 1680 (1 millisecond)[0m
+[32mmul(tree4)[0m
+[32m- should be 7560000 (1 millisecond)[0m
+[32mmul(tree5)[0m
+[32m- should be 362880 (1 millisecond)[0m
+[32mcountLeaves(tree1)[0m
+[32m- should be 1 (0 milliseconds)[0m
+[32mcountLeaves(tree2)[0m
+[32m- should be 3 (2 milliseconds)[0m
+[32mcountLeaves(tree3)[0m
+[32m- should be 4 (3 milliseconds)[0m
+[32mcountLeaves(tree4)[0m
+[32m- should be 5 (1 millisecond)[0m
+[32mcountLeaves(tree5)[0m
+[32m- should be 5 (1 millisecond)[0m
+[32mpostOrder(tree1)[0m
+[32m- should be List[Int](8) (1 millisecond)[0m
+[32mpostOrder(tree2)[0m
+[32m- should be List[Int](5, 8, 3, 2, 4) (1 millisecond)[0m
+[32mpostOrder(tree3)[0m
+[32m- should be List[Int](2, 1, 8, 5, 1, 3, 7) (1 millisecond)[0m
+[32mpostOrder(tree4)[0m
+[32m- should be List[Int](1, 3, 2, 7, 5, 12, 20, 15, 10) (1 millisecond)[0m
+[32mpostOrder(tree5)[0m
+[32m- should be List[Int](1, 3, 5, 7, 9, 8, 6, 4, 2) (1 millisecond)[0m
+[32mcountLiterals(be1)[0m
+[32m- should be 2 (1 millisecond)[0m
+[32mcountLiterals(be2)[0m
+[32m- should be 4 (0 milliseconds)[0m
+[32mcountLiterals(be3)[0m
+[32m- should be 5 (1 millisecond)[0m
+[32mcountLiterals(be4)[0m
+[32m- should be 9 (1 millisecond)[0m
+[32mcountLiterals(be5)[0m
+[32m- should be 6 (0 milliseconds)[0m
+[32mcountNots(be1)[0m
+[32m- should be 0 (1 millisecond)[0m
+[32mcountNots(be2)[0m
+[32m- should be 2 (1 millisecond)[0m
+[32mcountNots(be3)[0m
+[32m- should be 3 (0 milliseconds)[0m
+[32mcountNots(be4)[0m
+[32m- should be 3 (0 milliseconds)[0m
+[32mcountNots(be5)[0m
+[32m- should be 2 (1 millisecond)[0m
+[32mdepth(be1)[0m
+[32m- should be 1 (1 millisecond)[0m
+[32mdepth(be2)[0m
+[32m- should be 3 (1 millisecond)[0m
+[32mdepth(be3)[0m
+[32m- should be 5 (1 millisecond)[0m
+[32mdepth(be4)[0m
+[32m- should be 4 (1 millisecond)[0m
+[32mdepth(be5)[0m
+[32m- should be 3 (1 millisecond)[0m
+[32meval(be1)[0m
+[32m- should be true (1 millisecond)[0m
+[32meval(be2)[0m
+[32m- should be false (0 milliseconds)[0m
+[32meval(be3)[0m
+[32m- should be true (1 millisecond)[0m
+[32meval(be4)[0m
+[32m- should be false (0 milliseconds)[0m
+[32meval(be5)[0m
+[32m- should be true (0 milliseconds)[0m
+[32mgetString(be1)[0m
+[32m- should be "(true | false)" (0 milliseconds)[0m
+[32mgetString(be2)[0m
+[32m- should be "(!(true | false) & !(false | true))" (0 milliseconds)[0m
+[32mgetString(be3)[0m
+[32m- should be "(!((false | !true) & false) & (true & !false))" (1 millisecond)[0m
+[32mgetString(be4)[0m
+[32m- should be "((((true | false) & !true) | false) & (!(true & false) | ((true | fal ... (1 millisecond)[0m
+[32mgetString(be5)[0m
+[32m- should be "(((true | false) & !true) | ((true | false) & !false))" (0 milliseconds)[0m
+[36mRun completed in 543 milliseconds.[0m
+[36mTotal number of tests run: 160[0m
+[36mSuites: completed 1, aborted 0[0m
+[36mTests: succeeded 160, failed 0, canceled 0, ignored 0, pending 0[0m
+[32mAll tests passed.[0m

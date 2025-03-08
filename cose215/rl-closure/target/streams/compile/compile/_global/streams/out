@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /home/gmk/cose215/rl-closure/src/main/scala/kuplrg/Implementation.scala:3:7 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m3 |[0m[33mobject[0m [35mImplementation[0m [33mextends[0m [35mTemplate[0m {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m       ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mobject creation impossible, since def ihomDFA(dfa: kuplrg.DFA, h: kuplrg.Hom): kuplrg.DFA in [33mtrait[0m [35mTemplate[0m in [33mpackage[0m [35mkuplrg[0m is not defined [0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

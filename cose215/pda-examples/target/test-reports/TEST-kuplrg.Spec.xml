@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="gunmin" name="kuplrg.Spec" tests="8" errors="0" failures="1" skipped="0" time="7.825" timestamp="2024-05-28T16:53:09">
+          <properties>
+      <property name="java.specification.version" value="21"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://java.oracle.com/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-21-oracle-x64/lib"/><property name="sun.java.command" value="/home/gmk/.cache/sbt/boot/sbt-launch/1.9.9/sbt-launch-1.9.9.jar test"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2024-01-16"/><property name="java.home" value="/usr/lib/jvm/jdk-21-oracle-x64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="21.0.2+13-LTS-58"/><property name="user.name" value="gmk"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/gmk/.cache/JNA/temp/jna9636981455438289575.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="21.0.2"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="stderr.encoding" value="UTF-8"/><property name="java.vendor" value="Oracle Corporation"/><property name="scala.ext.dirs" value="/home/gmk/.sbt/1.0/java9-rt-ext-oracle_corporation_21_0_2"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/home/gmk/.cache/sbt/boot/sbt-launch/1.9.9/sbt-launch-1.9.9.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Asia/Seoul"/><property name="java.vm.specification.version" value="21"/><property name="os.name" value="Linux"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/gmk"/><property name="user.language" value="en"/><property name="sbt.script" value="/usr/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/run/user/1000/.sbt10d1fe49/ipcsocket"/><property name="swoval.tmpdir" value="/run/user/1000/.sbt10d1fe49/swoval"/><property name="jline.esc.timeout" value="0"/><property name="stdout.encoding" value="UTF-8"/><property name="path.separator" value=":"/><property name="os.version" value="5.15.146.1-microsoft-standard-WSL2"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib32:/usr/lib/wsl/lib"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="user.dir" value="/home/gmk/cose215/pda-examples"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="21.0.2+13-LTS-58"/><property name="java.class.version" value="65.0"/>
+    </properties>
+          <testcase classname="kuplrg.Spec" name="even_final_check() should be terminated normally" time="0.692">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="more_as_check() should be terminated normally" time="1.0">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="abc_ij_ik_check() should be terminated normally" time="0.444">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="a2n1_b3n1_check() should be terminated normally" time="0.025">
+                      <failure message="[ERROR] the word 'aaaaaaaaabbbbbbbbbbbbb' should be in the language." type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: [ERROR] the word 'aaaaaaaaabbbbbbbbbbbbb' should be in the language.
+	at org.scalatest.Assertions.newAssertionFailedException(Assertions.scala:476)
+	at org.scalatest.Assertions.newAssertionFailedException$(Assertions.scala:421)
+	at org.scalatest.flatspec.AnyFlatSpec.newAssertionFailedException(AnyFlatSpec.scala:1685)
+	at org.scalatest.Assertions.failImpl(Assertions.scala:1060)
+	at org.scalatest.Assertions.org$scalatest$Assertions$$inline$failImpl(Assertions.scala:1056)
+	at org.scalatest.Assertions.org$scalatest$Assertions$$inline$failImpl$(Assertions.scala:421)
+	at org.scalatest.flatspec.AnyFlatSpec.org$scalatest$Assertions$$inline$failImpl(AnyFlatSpec.scala:1685)
+	at kuplrg.SpecBase.failed(SpecBase.scala:146)
+	at kuplrg.SpecBase.failed(SpecBase.scala:141)
+	at kuplrg.SpecBase.testFun$proxy1$1(SpecBase.scala:129)
+	at kuplrg.SpecBase.newTest$$anonfun$1(SpecBase.scala:131)
+	at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:21)
+	at org.scalatest.flatspec.AnyFlatSpecLike$$anon$5.apply(AnyFlatSpecLike.scala:1717)
+	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:138)
+	at org.scalatest.flatspec.AnyFlatSpec.withFixture(AnyFlatSpec.scala:1685)
+	at org.scalatest.flatspec.AnyFlatSpecLike.invokeWithFixture$1(AnyFlatSpecLike.scala:1723)
+	at org.scalatest.flatspec.AnyFlatSpecLike.runTest$$anonfun$1(AnyFlatSpecLike.scala:1727)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+	at org.scalatest.flatspec.AnyFlatSpecLike.runTest(AnyFlatSpecLike.scala:1727)
+	at org.scalatest.flatspec.AnyFlatSpecLike.runTest$(AnyFlatSpecLike.scala:51)
+	at org.scalatest.flatspec.AnyFlatSpec.runTest(AnyFlatSpec.scala:1685)
+	at org.scalatest.flatspec.AnyFlatSpecLike.runTests$$anonfun$1(AnyFlatSpecLike.scala:1785)
+	at org.scalatest.SuperEngine.traverseSubNodes$1$$anonfun$1(Engine.scala:413)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:429)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:390)
+	at org.scalatest.SuperEngine.traverseSubNodes$1$$anonfun$1(Engine.scala:427)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:429)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:396)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:475)
+	at org.scalatest.flatspec.AnyFlatSpecLike.runTests(AnyFlatSpecLike.scala:1785)
+	at org.scalatest.flatspec.AnyFlatSpecLike.runTests$(AnyFlatSpecLike.scala:51)
+	at org.scalatest.flatspec.AnyFlatSpec.runTests(AnyFlatSpec.scala:1685)
+	at org.scalatest.Suite.run(Suite.scala:1114)
+	at org.scalatest.Suite.run$(Suite.scala:564)
+	at org.scalatest.flatspec.AnyFlatSpec.org$scalatest$flatspec$AnyFlatSpecLike$$super$run(AnyFlatSpec.scala:1685)
+	at org.scalatest.flatspec.AnyFlatSpecLike.run$$anonfun$1(AnyFlatSpecLike.scala:1830)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:535)
+	at org.scalatest.flatspec.AnyFlatSpecLike.run(AnyFlatSpecLike.scala:1830)
+	at org.scalatest.flatspec.AnyFlatSpecLike.run$(AnyFlatSpecLike.scala:51)
+	at kuplrg.Spec.org$scalatest$BeforeAndAfterAll$$super$run(Spec.scala:50)
+	at org.scalatest.BeforeAndAfterAll.liftedTree1$1(BeforeAndAfterAll.scala:213)
+	at org.scalatest.BeforeAndAfterAll.run(BeforeAndAfterAll.scala:217)
+	at org.scalatest.BeforeAndAfterAll.run$(BeforeAndAfterAll.scala:135)
+	at kuplrg.Spec.run(Spec.scala:50)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:321)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:517)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:153)
+	at sbt.TestRunner.run(TestFramework.scala:168)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:336)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:296)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:336)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:336)
+	at sbt.TestFunction.apply(TestFramework.scala:348)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:436)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:47)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+	at sbt.Execute.work(Execute.scala:292)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</failure>
+                    </testcase><testcase classname="kuplrg.Spec" name="abc_j_i2k_check() should be terminated normally" time="0.927">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="ord_brace_check() should be terminated normally" time="0.689">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="ae_even_check() should be terminated normally" time="0.221">
+                      
+                    </testcase><testcase classname="kuplrg.Spec" name="eq_pair_check() should be terminated normally" time="3.827">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

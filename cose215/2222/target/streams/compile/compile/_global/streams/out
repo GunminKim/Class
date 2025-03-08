@@ -1,0 +1,55 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/2222/src/main/scala/kuplrg/Implementation.scala:65:35 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m65 |[0m    [33mval[0m [36mmap3[0m: [35mMap[0m[[35mNt[0m, [35mList[0m[[35mRhs[0m]] = eliminateNGV(eliminateUnitPairs(eliminateNullable(map2)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                   ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                   Not found: eliminateNGV[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The identifier for `eliminateNGV` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m That can happen, for example, if `eliminateNGV` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `eliminateNGV` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `eliminateNGV` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/2222/src/main/scala/kuplrg/Implementation.scala:65:48 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m65 |[0m    [33mval[0m [36mmap3[0m: [35mMap[0m[[35mNt[0m, [35mList[0m[[35mRhs[0m]] = eliminateNGV(eliminateUnitPairs(eliminateNullable(map2)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                ^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                           Not found: eliminateUnitPairs[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The identifier for `eliminateUnitPairs` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m That can happen, for example, if `eliminateUnitPairs` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `eliminateUnitPairs` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `eliminateUnitPairs` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/gmk/cose215/2222/src/main/scala/kuplrg/Implementation.scala:65:67 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m65 |[0m    [33mval[0m [36mmap3[0m: [35mMap[0m[[35mNt[0m, [35mList[0m[[35mRhs[0m]] = eliminateNGV(eliminateUnitPairs(eliminateNullable(map2)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                   ^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                            Not found: eliminateNullable[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The identifier for `eliminateNullable` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m no declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m That can happen, for example, if `eliminateNullable` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m misspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe identifier for `eliminateNullable` is not bound, that is,[0m
+[0m[[0m[31merror[0m] [0m[0mno declaration for this identifier can be found.[0m
+[0m[[0m[31merror[0m] [0m[0mThat can happen, for example, if `eliminateNullable` or its declaration has either been[0m
+[0m[[0m[31merror[0m] [0m[0mmisspelt or if an import is missing.[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
